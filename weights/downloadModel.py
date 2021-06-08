@@ -6,5 +6,5 @@ if __name__ == "__main__":
     
     model = applications.ResNet50(weights='imagenet')
     print(model.summary())
-    model.save('resnNet50_imagenet.hdf5')
+    model.save('resNet50_imagenet.hdf5')
     
