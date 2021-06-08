@@ -6,7 +6,7 @@ import argparse
 import sys
 
 # example usage --> python keras2TensorRTConverter.py --modelDir weights/ --modelName resNet50_imagenet.hdf5
-# Download Keras pre-trained model with weights/downloadModel.py
+# Download Keras pre-trained model with python weights/downloadModel.py
 def parseArgs():
     parser = argparse.ArgumentParser(description='Image inference')
     parser.add_argument(
